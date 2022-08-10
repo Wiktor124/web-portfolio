@@ -136,6 +136,7 @@ main h2 {
 
 .recent {
   font-size: 3.125rem;
+  text-decoration-line: underline;
 }
 
 .recent-list {
