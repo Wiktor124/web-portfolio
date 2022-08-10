@@ -136,6 +136,8 @@ main h2 {
 
 .recent {
   font-size: 3.125rem;
+}
+.recent:hover {
   text-decoration-line: underline;
 }
 
