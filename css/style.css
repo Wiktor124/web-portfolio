@@ -242,6 +242,7 @@ main h2 {
 .contacto-container textarea {
   border-radius: 0.625rem;
   padding: 1.25rem 0;
+  font-size: 1.5625rem;
 }
 
 .contacto-container select{
