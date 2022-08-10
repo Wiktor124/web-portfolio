@@ -247,6 +247,8 @@ main h2 {
 
 .contacto-container select{
   padding: 0.9375rem 0;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 textarea::placeholder {
