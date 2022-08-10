@@ -139,6 +139,7 @@ main h2 {
 }
 .recent:hover {
   text-decoration-line: underline;
+  color: #9f9f9f;
 }
 
 .recent-list {
