@@ -241,7 +241,7 @@ main h2 {
 .contacto-container input,
 .contacto-container textarea {
   border-radius: 0.625rem;
-  padding: 1.25rem 0;
+  padding: 1.25rem 0 1.25rem 1.25rem;
   font-size: 1.5625rem;
 }
 
@@ -249,10 +249,6 @@ main h2 {
   padding: 0.9375rem 0;
   font-size: 25px;
   font-weight: 500;
-}
-
-textarea::placeholder {
-  padding-left: 0.9375rem;
 }
 
 .contacto-container input[type="submit"] {
