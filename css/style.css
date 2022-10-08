@@ -1,24 +1,21 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+html { font-size: 62.5%; }
 
 body {
   font-family: 'Roboto', sans-serif;;
   color: #fff;
   background-color: #0a0909;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
   font-size: 2.5rem;
-  font-weight: 700;
 }
 
 h3 {
   font-size: 1.875rem;
-  margin: 1.875rem 0;
-  font-weight: 500;
+  /* margin: 1.875em 0; */
 }
 
 ul, ol {
@@ -31,46 +28,66 @@ a {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
   border-radius: 0.3125rem;
+  width: 100%;
 }
 
 p {
-  font-size: 1.25rem;
-  line-height: 30px;
-  margin: 10px 0;
+  font-size: 1.5rem;
+  line-height: 1.4em;
+  margin: 0.625em 0;
   font-weight: 400;
 }
 
 .container {
   max-width: 73.75rem;
   margin: 0 auto;
+  padding: 0 1.5em;
 }
 
 .margin-top {
   margin-top: 4.375rem;
 }
 
-main h2 {
-  margin: 2.5rem 0;
-}
-
 /* Header */
 .flex-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header {
-  height: 6.25rem;
-  line-height: 6.25rem;
+  height: 6.25em;
   background-color: #0e0d0d;
 }
 
+.btn {
+  width: 4em;
+  height: 4em;
+  padding: 0;
+  border: none;
+  background-color: none;
+  background: url(/icons/menu.svg) center / 100%;
+}
+
 .menu-ol_bar {
-  font-size: 1.25rem;
-  gap: 2.8125rem;
+  display: none;
+}
+
+.menu-bar_active {
+  display: block;
+  position: absolute;
+  top: 6.2rem;
+  right: 0;
+  height: calc(100% - 6.2rem);
+  width: 100%;
+  background-color: #0e0d0d;
+  text-align: center;
+  line-height: 5em;
+}
+
+nav li > a {
+  font-size: 2rem;
 }
 
 .menu-ol_bar a:hover {
@@ -81,7 +98,7 @@ main h2 {
 
 /* Footer */
 .footer {
-  padding: 3.125rem 0;
+  padding: 1em 0;
   background-color: #0e0d0d;
 }
 
@@ -96,8 +113,8 @@ main h2 {
 }
 
 .redes-footer img {
-  height: 2.8125rem;
-  width: 2.8125rem;
+  height: 3em;
+  width: 3em;
 }
 
 
@@ -130,38 +147,32 @@ main h2 {
   padding: 1.5625rem 0;
   text-align: center;
   border-radius: 0.9375rem;
-  margin-bottom: 1.875rem;
+  /* margin-bottom: 1.875rem; */
   background-color: #0e0d0d;
 }
 
 .recent {
   font-size: 3.125rem;
 }
-.recent:hover {
-  text-decoration-line: underline;
+
+.recent:active {
   color: #9f9f9f;
 }
 
 .recent-list {
   display: flex;
-  gap: 1.875rem;
+  gap: 2.5em;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
 .recent-list li{
   padding: 2.5rem;
   text-align: center;
-  line-height: 3.125rem;
   border-radius: 0.625rem;
   background-color: #0e0d0d;
 }
 
-.recent-list li:first-child {
-  flex-basis: 50%;
-}
-
-.recent-list li:last-child {
-  flex-basis: 50%;
-}
 
 /* Curriculum */
 .curriculum-container {
