@@ -14,12 +14,13 @@ h2 {
 }
 
 h3 {
-  font-size: 1.875rem;
+  font-size: 3rem;
   /* margin: 1.875em 0; */
 }
 
 ul, ol {
   list-style: none;
+  padding: 0;
 }
 
 a {
@@ -33,7 +34,7 @@ img {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.4em;
   margin: 0.625em 0;
   font-weight: 400;
@@ -162,7 +163,6 @@ nav li > a {
 .recent-list {
   display: flex;
   gap: 2.5em;
-  padding: 0;
   flex-wrap: wrap;
 }
 
@@ -188,9 +188,10 @@ nav li > a {
 
 .curriculum-ul li div{
   display: flex;
+  /* flex-direction: column; */
   flex-wrap: wrap;
   gap: 3.125rem;
-  max-width: 50rem;
+  /* max-width: 50rem; */
 }
 
 .curriculum-ul h2 {
@@ -202,22 +203,22 @@ nav li > a {
   max-width: 59.375rem;
 }
 
-.curriculum-ul li img {
+/* .curriculum-ul li img {
   width: 12.5rem;
   height: 11.875rem;
-}
+} */
 
 
 /* Portafolio */
 .portafolio-ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 3.125rem;
 }
 
 .portafolio-ul li {
-  flex-basis: 47%;
+  /* flex-basis: 47%; */
   text-align: center;
   padding: 1.875rem 4.375rem;
   border-radius: 0.625rem;
@@ -233,14 +234,14 @@ nav li > a {
 
 /* Contacto */
 .contacto-container {
-  padding: 2.8125rem 6.25rem;
+  padding: 2.5em 4rem;
   border-radius: 0.625rem;
-  max-width: 50rem;
+  /* max-width: 50rem; */
   background-color: #0e0d0d;
 }
 
 .contacto-container form {
-  width: 37.5rem;
+  /* width: 37.5rem; */
 }
 
 .contacto-container form p{
